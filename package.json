@@ -18,7 +18,11 @@
     "dependencies": {
         "botbuilder": "~4.5.1",
         "dotenv": "^7.0.0",
-        "restify": "~8.3.3"
+        "express": "^4.17.1",
+        "microsoft-bot-protocol": "file:./lib/microsoft-bot-protocol",
+        "microsoft-bot-protocol-namedpipe": "file:./lib/microsoft-bot-protocol-namedpipe",
+        "microsoft-bot-protocol-streamingextensions": "file:./lib/microsoft-bot-protocol-streamingextensions",
+        "microsoft-bot-protocol-websocket": "file:./lib/microsoft-bot-protocol-websocket"
     },
     "devDependencies": {
         "eslint": "^5.13.0",
