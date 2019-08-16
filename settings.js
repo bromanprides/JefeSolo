@@ -4,8 +4,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PORT = env('PORT', '3978');
 exports.BOT_SETTINGS = {
-    appId: env('MSA_APP_ID', '8cf44991-6f55-4831-b938-92d959add7c2'),
-    appPassword: env('MSA_PASSWORD', 'jX^6&HLVHX>-Vh_JEr+lHEx--0['),
+    appId: env('MicrosoftAppId', '83d35b64-03c7-4ec9-a78b-9d65a36e2b73'),
+    appPassword: env('MicrosoftAppPassword', '(3Mb>j28ee#>a|?-s)!3h)nLJa1(ZA'),
     endpoint: env('BOT_ENDPOINT', '/api/messages'),
 };
 function env(name, defaultValue) {
